@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<application xmlns="http://ns.adobe.com/air/application/1.5"> 
+    <id>NmeRadio</id> 
+    <version>1.0</version> 
+    <filename>nmeradio</filename> 
+    <name>NME Radio</name> 
+     <description> 
+        <text xml:lang="en">Standalone NME Radio Player</text> 
+    </description> 
+    <copyright>Copyright (c) 2011 Graham Hadgraft.</copyright> 
+    <icon> 
+	    <image16x16>icons/smallIcon.png</image16x16> 
+	    <image32x32>icons/mediumIcon.png</image32x32> 
+	    <image48x48>icons/bigIcon.png</image48x48> 
+	    <image128x128>icons/biggestIcon.png</image128x128>  
+	</icon>
+    <initialWindow> 
+        <title>NME RADIO</title> 
+        <content> 
+            nmeradio.html
+        </content> 
+        <systemChrome>standard</systemChrome> 
+        <transparent>false</transparent> 
+        <visible>true</visible> 
+        <minimizable>true</minimizable> 
+        <maximizable>false</maximizable> 
+        <resizable>false</resizable> 
+        <width>600</width> 
+        <height>172</height> 
+	    <minSize>600 172</minSize>
+        <maxSize>600 172</maxSize> 
+    </initialWindow>  
+</application>

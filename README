@@ -1,0 +1,6 @@
+To Compile run:
+# ../AdobeAIRSDK/bin/adt -package -storetype pkcs12 -keystore sampleCert.pfx NMERadio.air application.xml nmeradio.html icons/smallIcon.png icons/mediumIcon.png icons/biggestIcon.png icons/bigIcon.png 
+
+TODO:
+- try to send growl messages 
+- possible integrate with geektools module
