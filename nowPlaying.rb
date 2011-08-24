@@ -3,6 +3,8 @@ require 'ruby-growl'
 
 require 'mechanize'
 
+	@process = `ps -A |grep "nme"`
+
 
 if @process =~ /nmeradio/
 	`touch /Users/grahamhadgraft/.nmeradionowplaying`
@@ -26,7 +28,6 @@ if @process =~ /nmeradio/
 	    end
 	end
 
-	@process = `ps -A |grep "nme"`
 
 
 
