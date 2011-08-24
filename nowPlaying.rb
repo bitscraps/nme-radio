@@ -6,7 +6,7 @@ require 'mechanize'
 	@process = `ps -A |grep "nme"`
 
 
-if @process =~ /nmeradio/
+if @process =~ /nmeradio.app/
 	`touch /Users/grahamhadgraft/.nmeradionowplaying`
 
 	nme_agent = Mechanize.new
